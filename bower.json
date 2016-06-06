@@ -1,0 +1,14 @@
+{
+  "name": "outsourced.ph",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss"
+      ]
+    }
+  }
+}

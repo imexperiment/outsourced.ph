@@ -1,0 +1,33 @@
+/**
+ * Bootstrap Sass
+ */
+@import "../components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.registration-container {
+    margin: 0 0 25px;
+    
+    .btn {
+        min-width: 140px;
+    }
+}
+
+.form-group {
+    .alert {
+        display: none;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 10px;
+    }
+
+    &.error .alert { 
+        display: block;
+    }
+}
+
+.form-group.checkbox {
+    margin-top: 0;
+
+    input[type="checkbox"] {
+        margin-left: 0;
+    }
+}
